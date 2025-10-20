@@ -1,34 +1,119 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <title>Página web de Daniel para Nagablo</title>
-   </head>
-   <body>
-      <div id="encabezado" style="background-color: #4CAF50; color: white; text-align: center; padding: 20px;">
-         <h1>Historia de Nagablo Nagampos</h1>
-         <h1>Un negro que se volvió blanco</h1>
-      </div>
-      <div id="enlaces" style="float: left; width: 20%; background-color: #f0f0f0; 15px; eight: 400px;">
-         <h3>Enlaces</h3>
-         <ul>
-            <li><a href="https://www.youtube.com/watch?v=ELSm-G201Ls" target="_blank">Tutorial HTML</a></li>
-            <li><a href="https://aules.edu.gva.es/fp/my/index.php" target="_blank">Aules</a></li>
-         </ul>
-      </div>
-      <div id="contenido" style="margin-left: 22%; padding: 20px; backgorund-color: #ffffff;">
-         <p>Nagablo, el que se convirtió en blanco</p>
-         <h3>Cosas que le gusta hacer a Nagablo</h3>
-         <ul>
-            <li>Socializar con la gente de campo</li>
-            <li>Los animales del campo</li>
-            <li>Su novia Andrita</li>
-         </ul>
-         <img src="https://images.unsplash.com/photo-1691704951233-1954a27c8ce2?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM2fHx8ZW58MHx8fHx8" width="300">
-      </div>
-      <main>
-         <p>Nagablo nació en un lugar de la mancha, un bosque concretamente, un niño huerfano y negro, todo el mundo le veía como un monstruo. pero llegó Andreita y lo amó para siempre.</p>
-      </main>
-      <div id="pie" style="background-color: #333; color: white; text-align: center; padding: 10px; clear: both;">
-      </div>
-   </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página de Ejemplo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .contenedor {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header id="inicio">
+        <h1>Bienvenidos a Mi Página</h1>
+    </header>
+
+    <!-- Menú -->
+    <nav>
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#mapa">Mapa</a>
+        <a href="#video">Video</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <div class="contenedor">
+        <!-- Sección de texto y foto -->
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Soy Dani y se me da mal el HTML, ayuda porfa.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTMDP6HkzooLeftQOwaoxGD6yD0HMNuO1GjQ&s" alt="Foto mía">
+        </section>
+
+        <!-- Sección del mapa -->
+        <section id="mapa">
+            <h2>Mi ubicación</h2>
+            <p>Mi casa tio:</p>
+            <iframe 
+               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3133.168173517974!2d-0.3790436233292514!3d39.46990711307427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f4989643d33%3A0x400bad579514ee0!2sValencia%20Centro%2C%20Valencia%2C%20España!5e0!3m2!1ses!2ses!4v1734741978000!5m2!1ses!2ses" 
+               width="600" 
+               height="450" 
+               style="border:0;" 
+             allowfullscreen="" 
+               loading="lazy" 
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+
+        </section>
+
+        <section id="video">
+         <h2>Video de YouTube</h2>
+         <p>Este es un video interesante sobre desarrollo web:</p>
+         <iframe 
+             width="100%" 
+             height="315" 
+             src="https://www.youtube.com/embed/dD2EISBDjWM" 
+             title="Video de YouTube sobre HTML" 
+             frameborder="0" 
+             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+             allowfullscreen>
+         </iframe>
+     </section>
+ </div>
+
+ <footer id="contacto">
+   <p>© 2025 Mi Página Web - Creada con IA</p>
+   <p><a href="https://aules.edu.gva.es/fp/my/" target="_blank" style="color: white;">Cariñosas</a></p>
+</footer>
+</body>
 </html>
